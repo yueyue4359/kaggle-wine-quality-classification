@@ -1,5 +1,5 @@
-#explanatory analysis
-wine <- read.csv('C:\\Users\\dapao\\Desktop\\winequality-red.csv')
+#exploratory analysis
+wine <- read.csv('winequality-red.csv')
 wine$group = ifelse(wine$quality>5, 1, 0)
 names(wine)
 summary(wine$group)
